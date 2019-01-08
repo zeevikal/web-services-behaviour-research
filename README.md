@@ -36,7 +36,7 @@ We then combine the two tables into a single table that will represent impressio
 We'll create two random variables (indicators), the first representing features found (or not) in the specific time window in question (5 minutes spike), while the second represents whether there is a relevant combination or not.
 The common variance will represent the relationship between the two indicators that should be the basis for calculating the score of each combination.
 
-`p` represents a table of probabilities for each combination calculated by dividing the common variance by the square root of the two indicators, or, in short, a (correlation)[https://en.wikipedia.org/wiki/Correlation_and_dependence]. The correlation represents a statistical relationship between these two random variables.
+`p` represents a table of probabilities for each combination calculated by dividing the common variance by the square root of the two indicators, or, in short, a [correlation](https://en.wikipedia.org/wiki/Correlation_and_dependence). The correlation represents a statistical relationship between these two random variables.
 The values of the correlation coefficients usually range from 1 to -1. A value of 0 usually indicates a lack of connection between the indicators (in the sense in which the relationship was defined), and values of 1 or -1 usually indicate a complete relationship between the indicators.
 
 Finally we will present the 10 combinations with the strongest connections that may be a source of problems presented first.
